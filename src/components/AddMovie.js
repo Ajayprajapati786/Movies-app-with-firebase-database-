@@ -19,6 +19,7 @@ function AddMovie(props) {
     };
 
     props.onAddMovie(movie);
+    // window.location.reload();
   }
 
   return (
